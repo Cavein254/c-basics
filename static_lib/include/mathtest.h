@@ -1,2 +1,2 @@
-int subtract_numbers (long int x, long int y);
-int add_numbers (long int x, long int y);
+int subtract_numbers (unsigned long long x, unsigned long long y);
+int add_numbers (long long x, long long y);

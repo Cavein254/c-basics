@@ -8,10 +8,10 @@ int main(void)
 {
     time_t t;
     srand((unsigned) time(&t));
-    long long rNuma = rand();
-    long long rNumb = rand();
+    unsigned long long rNuma = rand();
+    unsigned long long rNumb = rand();
 
-    long int answer;
+    unsigned long long answer;
     answer = add_numbers(rNuma, rNumb);
     printf("%d + %d = %d \n", rNuma, rNumb, answer);
 
